@@ -18,9 +18,7 @@ img{
 
 h2{
     color: #705024;
-    
-    /* sdsd */
-}
+    }
 h2:first-of-type{
     display: flex;
     justify-content: center;
