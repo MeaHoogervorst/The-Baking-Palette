@@ -1,7 +1,9 @@
 
 h1{
     color: #705024;
-    position: relative;left: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -9,65 +11,149 @@ body{
     background:#f2e7cf;
     font-family: unset;
 }
-p{
-    width:50%;
-    max-width: 100%;
-}
-li{
-    width: 50%;
-}
 img{
-    max-width: 100%;
+    max-width: 25%;
+    
 }
+
 h2{
     color: #705024;
-    position: relative;left: 6.5em;
+    
+    /* sdsd */
 }
-p{
-    color: #705024;
-    position:relative;left: 10em;
-    line-height: 1.56em;
-    letter-spacing: 0.031em;
+h2:first-of-type{
+    display: flex;
+    justify-content: center;
 }
-li{
+h3{
     color: #705024;
 }
 
-nav ul{
-    list-style-type: none; 
-    padding: 0.62em;
-    background-color: #705024; 
-    display: flex;
-    max-width: 75%;
-    position: relative; left: 10em;
-    font-weight: bold;
-    min-width: 10%;
-   
+p{
+    color: #705024;
+    line-height: 1.56em;
+    letter-spacing: 0.031em;
 }
+
+li{
+    color: #705024;
+    width: 75%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+    background-color: #705024;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
 a{
     color:#f2e7cf;
     text-decoration: none;
 }
-img{
-    position: relative; left: 10em;
-}
 ul li{
-    position: relative;left: 8.5em;
     line-height: 1.56em;
     letter-spacing: 0.031em;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    list-style-type: none;
+    /* box shadow Chat GPT */
 }
 p a{
     color: #705024;
 }
 
+div{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+div a{
+  position: relative;left: 3em;  
+  color: #705024;
+  text-decoration-line: underline;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #705024;
+    color: #705024;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #705024;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    color: #f2e7cf;
+    outline: none;
+    background: #705024;
+    border: 1px solid #705024;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+/* contact formulier:https://www.youtube.com/watch?v=524ycUqs3f0 */
 section{
     display: flex;
-    width: 20%;
+    justify-content: left;
 }
 
-section a{
-  position: relative;left: 3em;  
-  text-decoration: overline;
+section p{
+margin-top: 75px;
+width: 50%;
+}
+h3 a{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+h3 a:hover{
+ color:#f2e7cf;
+ background-color: #705024;
 }
 
- 
+footer{
+    border: 1px #705024;
+    background-color: #705024;
+    text-align: center;
+    padding: 10px 0;
+   margin-top: 20px;
+}
+footer p{
+    color: #f2e7cf;
+}
+
+footer a{
+color: #f2e7cf;
+text-decoration: underline;
+}
